@@ -137,11 +137,12 @@ DATABASES = {
     }
 }
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS =  ['customer-order-project-xbhw.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Set DEBUG mode
-DEBUG = os.getenv('DEBUG') == 'True'
+DEBUG = os.getenv('DEBUG') == 'False'
 
 
 
